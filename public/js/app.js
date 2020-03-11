@@ -60635,100 +60635,92 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    [
-      _c("h1", [_vm._v("Create Post")]),
-      _vm._v(" "),
-      _c(
-        "b-form",
-        {
-          on: {
-            submit: function($event) {
-              $event.preventDefault()
-              return _vm.addPost($event)
-            }
+  return _c("div", [
+    _c("h1", [_vm._v("Create Post")]),
+    _vm._v(" "),
+    _c(
+      "form",
+      {
+        on: {
+          submit: function($event) {
+            $event.preventDefault()
+            return _vm.addPost($event)
           }
-        },
-        [
-          _c(
-            "b-form-group",
-            {
+        }
+      },
+      [
+        _c(
+          "b-form-group",
+          {
+            attrs: {
+              id: "post-title",
+              label: "Post Title",
+              "label-for": "postTitle",
+              description: "This will be the title of your post"
+            }
+          },
+          [
+            _c("b-form-input", {
               attrs: {
-                id: "post-title",
-                label: "Post Title",
-                "label-for": "postTitle",
-                description: "This will be the title of your post"
-              }
-            },
-            [
-              _c("b-form-input", {
-                attrs: {
-                  id: "postTitle",
-                  type: "text",
-                  required: "",
-                  placeholder: "Enter Title"
+                id: "postTitle",
+                type: "text",
+                required: "",
+                placeholder: "Enter Title"
+              },
+              model: {
+                value: _vm.post.title,
+                callback: function($$v) {
+                  _vm.$set(_vm.post, "title", $$v)
                 },
-                model: {
-                  value: _vm.post.title,
-                  callback: function($$v) {
-                    _vm.$set(_vm.post, "title", $$v)
-                  },
-                  expression: "post.title"
-                }
-              })
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-form-group",
-            {
+                expression: "post.title"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "b-form-group",
+          {
+            attrs: {
+              id: "post-body",
+              label: "Post Body",
+              "label-for": "postBody",
+              description: "This will be the body of your post"
+            }
+          },
+          [
+            _c("b-form-textarea", {
               attrs: {
-                id: "post-body",
-                label: "Post Body",
-                "label-for": "postBody",
-                description: "This will be the body of your post"
-              }
-            },
-            [
-              _c("b-form-textarea", {
-                attrs: {
-                  id: "postBody",
-                  type: "text",
-                  required: "",
-                  placeholder: "Describe what your post",
-                  rows: "5"
+                id: "postBody",
+                type: "text",
+                required: "",
+                placeholder: "Describe what your post",
+                rows: "5"
+              },
+              model: {
+                value: _vm.post.body,
+                callback: function($$v) {
+                  _vm.$set(_vm.post, "body", $$v)
                 },
-                model: {
-                  value: _vm.post.body,
-                  callback: function($$v) {
-                    _vm.$set(_vm.post, "body", $$v)
-                  },
-                  expression: "post.body"
-                }
-              })
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c("br"),
-          _vm._v(" "),
-          _c(
-            "b-form-group",
-            [
-              _c("b-button", { attrs: { variant: "outline-dark" } }, [
-                _vm._v("Create")
-              ])
-            ],
-            1
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
+                expression: "post.body"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("b-form-group", [
+          _c("button", { staticClass: "btn btn-outline-dark" }, [
+            _vm._v("Create")
+          ])
+        ])
+      ],
+      1
+    )
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -76225,7 +76217,6 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(bootstrap_vue__WEBPACK_IMPORTED_M
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_5__["default"]);
 
 
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_axios__WEBPACK_IMPORTED_MODULE_6___default.a, axios__WEBPACK_IMPORTED_MODULE_7___default.a);
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_axios__WEBPACK_IMPORTED_MODULE_6___default.a, axios__WEBPACK_IMPORTED_MODULE_7___default.a);
 

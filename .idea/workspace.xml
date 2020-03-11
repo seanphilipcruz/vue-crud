@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bc51f72-4b1c-4373-9585-82efac839f09" name="Default Changelist" comment="" />
+    <list default="true" id="1bc51f72-4b1c-4373-9585-82efac839f09" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/CreateComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/CreateComponent.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -20,6 +25,9 @@
         <option value="SCSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -141,7 +149,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -165,6 +173,8 @@
       <option name="presentableId" value="Default" />
       <updated>1583465180603</updated>
       <workItem from="1583465215358" duration="21037000" />
+      <workItem from="1583723094800" duration="1662000" />
+      <workItem from="1583725484412" duration="1378000" />
     </task>
     <servers />
   </component>
@@ -176,10 +186,10 @@
       <screen x="0" y="0" width="1280" height="994" />
     </state>
     <state x="474" y="416" key="NewPhpFileDialog/0.0.1280.994@0.0.1280.994" timestamp="1583467741504" />
-    <state x="137" y="139" width="916" height="716" key="SettingsEditor" timestamp="1583468093362">
+    <state x="137" y="139" width="916" height="716" key="SettingsEditor" timestamp="1583723340788">
       <screen x="0" y="0" width="1280" height="994" />
     </state>
-    <state x="137" y="139" width="916" height="716" key="SettingsEditor/0.0.1280.994@0.0.1280.994" timestamp="1583468093362" />
+    <state x="137" y="139" width="916" height="716" key="SettingsEditor/0.0.1280.994@0.0.1280.994" timestamp="1583723340788" />
     <state x="303" y="213" width="672" height="678" key="search.everywhere.popup" timestamp="1583482145086">
       <screen x="0" y="0" width="1280" height="994" />
     </state>

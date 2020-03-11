@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>Create Post</h1>
-        <b-form @submit.prevent="addPost">
+        <form @submit.prevent="addPost">
             <b-form-group
                 id="post-title"
                 label="Post Title"
@@ -37,9 +37,9 @@
             <br />
 
             <b-form-group>
-                <b-button variant="outline-dark">Create</b-button>
+                <button class="btn btn-outline-dark">Create</button>
             </b-form-group>
-        </b-form>
+        </form>
     </div>
 </template>
 
